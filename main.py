@@ -1,9 +1,6 @@
 # Importing the Flask module
 from flask import Flask, render_template
 
-# Importing the request module (remove if not needed)
-import requests
-
 app = Flask(__name__)
 
 @app.route('/')
