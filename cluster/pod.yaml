@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: flask-application
+spec:
+  containers:
+  - name: flask-app
+    image: nischalchudal/flask:1.1
+    ports:
+    - containerPort: 80
+  imagePullSecrets:
+  - name: docker-secrets

@@ -1,0 +1,5 @@
+kubectl create secret docker-registry docker-secrets \
+  --docker-email=chudalnischal7@gmail.com \
+  --docker-username=nischalchudal \
+  --docker-password=nischaldockerhub1 \
+  --docker-server=https://hub.docker.com/repositories/nischalchudal
