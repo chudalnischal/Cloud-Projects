@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE  50500 
 
-CMD [ "python ", "main.py" ]
+CMD [ "python", "main.py" ]
