@@ -5,7 +5,7 @@ pipeline {
         DOCKER_REGISTRY = "https://index.docker.io/v1/" // docker registry url
         DOCKER_PUSH = "nischalchudal/jenkinspipeline" // docker repos
         DOCKER_CREDENTIALS = "nischal-dockerhub" //  # user id of the dockerhub
-        DOCKER_IMAGE_NAME = "nischalchudal/flask:1.4" // image name 
+        DOCKER_IMAGE_NAME = "nischalchudal/flask:1.5" // image name 
     }
 
     stages {
