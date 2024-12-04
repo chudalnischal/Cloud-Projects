@@ -19,7 +19,8 @@ if [ $userChoice -eq 1 ]; then
   #p flag is used to prompt the user to enter the username
   read -p "enter the username:" username
   echo "you entered $username" 
-  read -p " do you have any group name in mind? (y/n)" choice
+  read -p " do you have any group name in mind? (y/n)" 
+  newChoice =$choice
   if ["$choice" == "y"]; then
     read -p "enter the group name:" groupname
     usermod -a -G $groupname $username
