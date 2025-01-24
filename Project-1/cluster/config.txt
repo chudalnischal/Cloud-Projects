@@ -1,1 +1,0 @@
-kubectl create secret docker-registry docker-secrets  --docker-email=<example@gmail.com> --docker-username=<myusername> --docker-password=<mypassword> --docker-server=<https://hub.docker.com/repository>

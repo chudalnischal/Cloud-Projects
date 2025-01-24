@@ -1,8 +1,0 @@
-kind: Cluster # cluster with 3 nodes
-apiVersion: kind.x-k8s.io/v1alpha4
-nodes:
-- role: control-plane #master \ main\ contol plane node
-- role: worker #worker 1
-- role: worker #worker 2
-
-

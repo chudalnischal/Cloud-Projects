@@ -1,5 +1,0 @@
-docker rum --entrypoint htpasswd httpd:2 -Bbn myuser mypassword > auth/htpasswd
-
--B ( special encoding) 
-so what basicallyit will do it
-it will create a encrypted user login details and store it in auth/htpasswd
