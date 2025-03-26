@@ -7,7 +7,7 @@ app = Flask("__name__")
 
 @app.route('/')
 def weather():
-    api_key = "e839c87aff54e34a60804e78bcc26fc6"
+    api_key = "your apikey "
     BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
     user_city = request.args.get("city")
