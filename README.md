@@ -12,13 +12,16 @@ A curated collection documenting my learning journey through:
 
 ## 📂 Project Structure
 Organized by day with each representing a distinct technology focus:
+```bash
 /My-Projects-Collection
     ├── Day01/
     ├── Day02/
     ├── Day03/
     ├── Day04/
     ├── Day05/
-    └── README.md
+    ├── ... 
+    └──README.md
+```
 
 **Check Each Day's Readme**: Each project folder will contain a README.md file with detailed instructions, what you learned, and how to run the projects. It will also specify any prerequisites, tools, and steps to execute the project.
 
@@ -29,7 +32,6 @@ Organized by day with each representing a distinct technology focus:
 
 This repository will include projects with a wide variety of tools, frameworks, programming languages, and services, including but not limited to:
 
-### Core Stack
 | Category       | Technologies                          |
 |----------------|---------------------------------------|
 | Containers     | Docker, Kubernetes                   |
