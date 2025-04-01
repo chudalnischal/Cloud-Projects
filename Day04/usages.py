@@ -14,12 +14,13 @@ def system():
 
             print(f"CPU Usage: {cpu}%")
             print(f"Memory Usage: {memory.percent}%")
-            print("--------------------------------")
+            print("-------------------------------------------")
+
             #waiting some time to print it again 
             time.sleep(5)
     except KeyboardInterrupt:
         sys.exit()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     system()
