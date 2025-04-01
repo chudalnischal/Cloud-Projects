@@ -108,8 +108,4 @@ All these containers are connected to the same Docker network (mynetwork), allow
 **Yelb UI**: After deploying the containers, you can access the Yelb UI by visiting http://localhost:<port> in your browser. Replace <port> with the port the Yelb UI is mapped to on your host machine (typically set in your Docker configuration).
 **Redis & PostgreSQL**: These services run in the background and aren't exposed to the host machine by default. They can only be accessed by other containers within the same network.
 
-### Notes
-Docker Compose simplifies the process by managing container relationships and networks in a single file, which is especially helpful for complex setups.
-If you're using Docker without Compose, remember that you have to manually manage the network and ensure all containers are connected correctly.
-The application services can be accessed through container names, which resolve to their respective IP addresses within the network.
 ---
