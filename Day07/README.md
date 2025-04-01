@@ -33,7 +33,7 @@ Redis (Remote Dictionary Server) is an open-source, in-memory data structure sto
 
 ---
 
-## What You we Doing  
+## What You will be Doing  
 
 In this setup, we are:  
 1. **Installing Redis** – Setting up Redis as a central logging system.  
